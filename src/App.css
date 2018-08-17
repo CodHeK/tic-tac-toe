@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.new_game {
+  width: 160px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 13px;
+  margin-right: 10%;
+  margin-top: 5%;
+}
+
+.tic-tac-toe {
+  margin-top: 5%;
+  margin-left: 27%;
+  text-align: center;
+}
+
+.each_box {
+  width: 200px;
+  height: 200px;
+  font-size: 70px;
+  text-align: center;
+  color: black;
+}
+
+.butt {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  transition: background-color 0.5s;
+  font-size: 70px;
+  text-align: center;
+  color: black;
+}
+
+.butt:hover {
+  background-color: rgb(211, 211, 211, 0.4);
+}
+
+[id="0"] {
+  border-top: 0;
+  border-left: 0;
+}
+
+[id="1"] {
+  border-top: 0;
+}
+
+[id="2"] {
+  border-top: 0;
+  border-right: 0;
+}
+
+[id="3"] {
+  border-left: 0;
+}
+
+[id="5"] {
+  border-right: 0;
+}
+
+[id="6"] {
+  border-bottom: 0;
+  border-left: 0;
+}
+
+[id="7"] {
+  border-bottom: 0;
+}
+
+[id="8"] {
+  border-bottom: 0;
+  border-right: 0;
+}
